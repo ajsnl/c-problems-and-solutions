@@ -5,12 +5,12 @@ Solution:=
 */
 #include<stdio.h>
 #include<stdlib.h>
-void max();  //function declaration
+void maxi();  //function declaration
 int main(){
-    max();  //function call
+    maxi();  //function call
     return 0;
 }
-void max(){   //function definition
+void maxi(){   //function definition
     int num1,num2,num3;
     printf("Enter the first number\n");
     scanf("%d",&num1);
